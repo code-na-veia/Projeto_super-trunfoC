@@ -15,6 +15,10 @@ int main(){
     int turistico;
 
 
+
+    printf("\n DESAFIO SUPER TRUNFO\n");
+
+
     printf("\nJogador: 1 \n");
     printf("\nCarta : 1 \n");
 
@@ -142,4 +146,4 @@ int main(){
    return 0;
     
 
- }
+ }   
