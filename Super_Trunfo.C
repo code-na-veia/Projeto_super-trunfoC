@@ -16,56 +16,47 @@ int main(){
 
 
 
-    printf("\n DESAFIO SUPER TRUNFO\n");
+           printf("DESAFIO SUPER TRUNFO\n");
 
 
-    printf("\nJogador: 1 \n");
-    printf("\nCarta : 1 \n");
+     printf("\nJogador: 1\n");
 
-    printf("Estado: ");
+    printf("Digite seu estado: \n");
     scanf("%49s", estado);
-    while (getchar() != '\n');
 
-    printf("Codigo: ");
+    printf("Digite seu codigo: \n");
     scanf("%39s", codigo);
-    while (getchar() != '\n');
 
-    printf("Nome da Cidade: ");
+    printf("Digite nome da sua cidade: \n");
     scanf("%29s", cidade);
-    while (getchar() != '\n');
 
-    printf("Populacao: ");
+    printf("Digite a populacao: \n");
     scanf("%lf", &populacao);
-    while (getchar() != '\n');
 
-    printf("Area em KM: ");
+    printf("Digite a area em KM: \n");
     scanf("%lf", &area);
-    while (getchar() != '\n');
 
-    printf("PIB: ");
+    printf("Digite o PIB: \n");
     scanf("%lf", &pib);
-    while (getchar() != '\n');
-
-    printf("Pontos Turisticos: ");
+    
+    printf("Digite a quantidade pontos turisticos: \n");
     scanf("%d", &turistico);
-    while (getchar() != '\n');
-
-
+   
 
     
     printf("\nCarta do jogador: 1\n");
     printf("Estado: ");
-    printf("%7s \n", estado);
+    printf("%10s \n", estado);
     printf("Codigo: ");
     printf("%3s \n", codigo);
     printf("Nome da Cidade: ");
-    printf("%7s \n", cidade);
+    printf("%9s \n", cidade);
     printf("Populacao: ");
-    printf("%1f \n", populacao);
+    printf("%lf \n", populacao);
     printf("Area em KM: ");
-    printf("%1f \n", area);
+    printf("%lf \n", area);
     printf("PIB: ");
-    printf("%1f \n", pib);
+    printf("%lf \n", pib);
     printf("Pontos Turisticos: ");
     printf("%.2d \n", turistico);
 
@@ -89,46 +80,41 @@ int main(){
 
 
      printf("\nJogador: 2 \n");
-     printf("\nCarta : 2 \n");
 
-    printf("Estado: ");
+    printf("Digite seu estado: \n");
     scanf("%49s", Estado);
-    while (getchar() != '\n');
+    
 
-    printf("Codigo: ");
+    printf("Digite seu codigo: \n");
     scanf("%39s", Codigo);
-    while (getchar() != '\n');
+   
 
-    printf("Nome da Cidade: ");
+    printf("Digite nome da sua cidade: \n");
     scanf("%29s", Cidade);
-    while (getchar() != '\n');
+   
 
-
-    printf("Populacao: ");
+    printf("Digite a populacao: \n");
     scanf("%lf", &Populacao);
-    while (getchar() != '\n');
+    
 
-
-    printf("Area em KM: ");
+    printf("Digite a area em KM: \n");
     scanf("%lf", &Area);
-    while (getchar() != '\n');
+   
 
-
-    printf("PIB: ");
+    printf("Digite o PIB: \n");
     scanf("%lf", &Pib);
-    while (getchar() != '\n');
+    
 
-
-    printf("Pontos Turisticos: ");
+    printf("Digite a quantidade pontos turisticos: \n");
     scanf("%d", &Turistico);
-    while (getchar() != '\n');
+    
 
 
 
 
     printf("\nCarta do jogador: 2 \n");
     printf("Estado: ");
-    printf("%7s \n", Estado);
+    printf("%10s \n", Estado);
     printf("Codigo: ");
     printf("%3s \n", Codigo);
     printf("Nome da Cidade: ");
