@@ -9,26 +9,49 @@ int main(){
     char estado [50]; 
     char codigo [40];
     char cidade [30];
-    double populacao;
-    double area;
-    double pib;
+    double populacao, area, pib1;
     int turistico;
+    double dp1, PIBpc1;
+     
+
+
+/*
+          - O que preciso fazer?
+
+  1: Calcular a densidade populacional usando ( double/ float)
+ - 2: Como fazer isso?
+ 
+ - 3: Irei pegar a variavel população e dividir pela área da cidade
+ 
+  4: Calcular o PIB per capita usando ( double ou float)
+ - 5: como fazer isso?
+
+ - 7: Variavel PIB e divide pela variavel População
 
 
 
-           printf("DESAFIO SUPER TRUNFO\n");
+
+
+
+
+*/
+
+
+
+
+           printf("\nDESAFIO SUPER TRUNFO \n");
 
 
      printf("\nJogador: 1\n");
 
-    printf("Digite seu estado: \n");
-    scanf("%49s", estado);
+    printf("\nDigite seu estado: \n");
+    scanf("%24s", estado);
 
     printf("Digite seu codigo: \n");
-    scanf("%39s", codigo);
+    scanf("%24s", codigo);
 
     printf("Digite nome da sua cidade: \n");
-    scanf("%29s", cidade);
+    scanf("%24s", cidade);
 
     printf("Digite a populacao: \n");
     scanf("%lf", &populacao);
@@ -37,33 +60,54 @@ int main(){
     scanf("%lf", &area);
 
     printf("Digite o PIB: \n");
-    scanf("%lf", &pib);
-    
+    scanf("%lf", &pib1);
+
     printf("Digite a quantidade pontos turisticos: \n");
     scanf("%d", &turistico);
    
 
     
-    printf("\nCarta do jogador: 1\n");
+    printf("\nCarta do jogador 1: \n");
     printf("Estado: ");
-    printf("%10s \n", estado);
+    printf(" %10s\n", estado);
     printf("Codigo: ");
-    printf("%3s \n", codigo);
+    printf(" %3s\n", codigo);
     printf("Nome da Cidade: ");
-    printf("%9s \n", cidade);
-    printf("Populacao: ");
-    printf("%lf \n", populacao);
-    printf("Area em KM: ");
-    printf("%lf \n", area);
-    printf("PIB: ");
-    printf("%lf \n", pib);
-    printf("Pontos Turisticos: ");
-    printf("%.2d \n", turistico);
+    printf(" %9s\n", cidade);
+    printf("Populacao: %.0lf\n", populacao);
+    printf("Area em KM: %.2lf\n", area);
+    printf("PIB: %.2lf\n", pib1);
+    printf("Pontos Turisticos: %d\n", turistico);
 
+    dp1 = populacao / area;
+     printf("A densidade populacional em Km² é de: %.2lf\n", dp1);
+
+   PIBpc1 = pib1 / populacao;
+    printf("O PIB Per Capita é de: %.2lf\n", PIBpc1);
+    
 
 
   
+   /*
+          - O que preciso fazer?
 
+  1: Calcular a densidade populacional usando ( double/ float)
+ - 2: Como fazer isso?
+ 
+ - 3: Irei pegar a variavel população e dividir pela área da cidade
+ 
+  4: Calcular o PIB per capita usando ( double ou float)
+ - 5: como fazer isso?
+
+ - 7: Variavel PIB e divide pela variavel População
+
+
+
+
+
+
+
+*/
 
 
 
@@ -71,39 +115,35 @@ int main(){
     char Estado [50]; 
     char Codigo [40];
     char Cidade [30];
-    double Populacao;
-    double Area;
-    double Pib;
+    double Populacao, Area, Pib;
     int Turistico;
+    double DCP, PibPC;
 
 
 
 
      printf("\nJogador: 2 \n");
 
-    printf("Digite seu estado: \n");
-    scanf("%49s", Estado);
+    printf("\nDigite seu estado: \n");
+    scanf("%25s", Estado);
     
 
     printf("Digite seu codigo: \n");
-    scanf("%39s", Codigo);
+    scanf("%25s", Codigo);
    
 
     printf("Digite nome da sua cidade: \n");
-    scanf("%29s", Cidade);
+    scanf("%25s", Cidade);
    
 
     printf("Digite a populacao: \n");
     scanf("%lf", &Populacao);
-    
 
     printf("Digite a area em KM: \n");
     scanf("%lf", &Area);
-   
 
     printf("Digite o PIB: \n");
     scanf("%lf", &Pib);
-    
 
     printf("Digite a quantidade pontos turisticos: \n");
     scanf("%d", &Turistico);
@@ -114,22 +154,25 @@ int main(){
 
     printf("\nCarta do jogador: 2 \n");
     printf("Estado: ");
-    printf("%10s \n", Estado);
+    printf(" %10s\n", Estado);
     printf("Codigo: ");
-    printf("%3s \n", Codigo);
-    printf("Nome da Cidade: ");
-    printf("%9s \n", Cidade);
-    printf("Populacao: ");
-    printf("%f \n", Populacao);
-    printf("Area em KM: ");
-    printf("%1f \n", Area);
-    printf("PIB: ");
-    printf("%1f \n", Pib);
-    printf("Pontos Turisticos: ");
-    printf("%.2d \n", Turistico);
+    printf(" %3s\n", Codigo);
+    printf(" %9s\n", Cidade);
+    printf("Populacao: %.0lf\n", Populacao);
+    printf("Area em KM: %.2lf\n", Area);
+    printf("PIB: %.2lf\n", Pib);
+    printf("Pontos Turisticos: %d\n", Turistico);
+
+    DCP = Populacao / Area;
+     printf("A Densidade Populacional em Km² é de: %.2lf\n", dp1);
+
+    PibPC = Pib / Populacao;
+    printf("O PIB Per Capita é de: %.2lf\n", PibPC);
+
+
 
 
    return 0;
     
 
- } 
+ }
